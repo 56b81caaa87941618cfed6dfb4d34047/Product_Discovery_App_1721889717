@@ -17,6 +17,20 @@ Vue.component("simple_cta_component_1721889719", {
                 </div>
             </div>
         </nav>
+        <nav class="bg-white shadow-md dark:bg-gray-800">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div class="flex items-center">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
+                </div>
+                <div class="flex items-center">
+                    <ul class="flex flex-row space-x-8">
+                        <li><a href="#" class="text-gray-800 dark:text-white hover:text-purple-600">Home</a></li>
+                        <li><a href="#" class="text-gray-800 dark:text-white hover:text-purple-600">About</a></li>
+                        <li><a href="#" class="text-gray-800 dark:text-white hover:text-purple-600">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <section id="cta-component" class="bg-gray-50 dark:bg-gray-800 flex-1">
             <div id="cta-inner-container" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
                 <div id="cta-content" class="max-w-screen-sm mx-auto text-center">
